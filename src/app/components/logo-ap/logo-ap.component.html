@@ -8,25 +8,35 @@
       />
     </div>
     <div class="redes">
-      <a href=""
+      <a href="https://www.facebook.com/cristiangabriel.cacciolatti.77"
         ><img src="../../../assets/facebook.png" alt="Facebook" id="Facebook"
       /></a>
-      <a href=""
+      <a href="https://www.instagram.com/cristian_cacciolatti/"
         ><img
           src="../../../assets/instagram.png"
           alt="Instagram"
           id="Instagram"
       /></a>
-      <a href=""
+      <a href="https://www.linkedin.com/in/cristiancacciolatti/"
         ><img src="../../../assets/linkedin.png" alt="LinkedIn" id="LinkedIn"
       /></a>
-      <a href=""
+      <a href="https://github.com/cristiangc92"
         ><img src="../../../assets/github.png" alt="Github" id="Github"
       /></a>
-      <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">
+      <button
+        type="button"
+        class="btn btn-outline-light"
+        (click)="login()"
+        *ngIf="!isLogged"
+      >
         INGRESO
       </button>
-      <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">
+      <button
+        type="button"
+        class="btn btn-outline-light"
+        (click)="onLogOut()"
+        *ngIf="isLogged"
+      >
         CERRAR SESION
       </button>
     </div>
