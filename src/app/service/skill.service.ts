@@ -29,6 +29,6 @@ export class SkillService {
   }
 
   public delete(id: number): Observable<any> {
-    return this.httpClient.delete<any>(this.URL + `update/${id}`);
+    return this.httpClient.delete<any>(this.URL + `delete/${id}`);
   }
 }
